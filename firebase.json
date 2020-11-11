@@ -3,6 +3,7 @@
     "rules": "database.rules.json"
   },
   "hosting": {
+    "site": "dsckirinyagauni",
     "public": "public",
     "ignore": [
       "firebase.json",
@@ -17,3 +18,4 @@
     ]
   }
 }
+
