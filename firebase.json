@@ -1,21 +1,10 @@
 {
-  "database": {
-    "rules": "database.rules.json"
-  },
   "hosting": {
-    "site": "dsckirinyagauni",
     "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
-
